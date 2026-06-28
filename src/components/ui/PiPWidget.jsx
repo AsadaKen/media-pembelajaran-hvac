@@ -36,7 +36,13 @@ export default function PiPWidget() {
           {/* Area Konten Video / Placeholder */}
           <div className="aspect-video bg-surface-container-lowest flex items-center justify-center relative">
             {data?.videoUrl ? (
-              <video src={data.videoUrl} controls className="w-full h-full object-cover" />
+              <video 
+                key={data.videoUrl}
+                src={data.videoUrl} 
+                controls 
+                autoPlay
+                className="w-full h-full object-contain bg-black" 
+              />
             ) : (
               <div className="text-on-surface-variant font-inter text-xs flex flex-col items-center opacity-70">
                 <span className="text-2xl mb-2">🎞️</span>

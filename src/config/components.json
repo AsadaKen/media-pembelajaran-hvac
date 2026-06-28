@@ -3,7 +3,7 @@
     {
       "id": "siklus_sistem_pendingin",
       "name": "Siklus Operasional Penuh",
-      "videoUrlMode2D": "/videos/siklus_penuh.mp4",
+      "videoUrlMode2D": "videos/siklus_penuh.mp4",
       "description": "Video animasi interaktif yang menampilkan integrasi mekanis sirkulasi air dingin dan air panas yang menghubungkan AHU, Chiller, dan Cooling Tower secara simultan."
     }
   ]

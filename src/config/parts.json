@@ -21,7 +21,7 @@
       "name": "Kondensor",
       "componentId": "chiller",
       "description": "Kondensor berfungsi melepaskan panas dari refrigeran ke media pendingin sehingga refrigeran berubah dari fase gas menjadi cair bertekanan tinggi.",
-      "videoUrl": null,
+      "videoUrl": "videos/siklus-kondensor.mp4",
       "audioUrl": null
     },
     {
@@ -53,7 +53,7 @@
       "name": "Blower AHU",
       "componentId": "ahu",
       "description": "Blower AHU berfungsi mengalirkan udara melalui filter dan cooling coil kemudian mendistribusikannya ke ruangan yang dilayani.",
-      "videoUrl": null,
+      "videoUrl": "videos/blower-ac.mp4",
       "audioUrl": null
     },
     {
@@ -69,7 +69,7 @@
       "name": "Motor Kipas",
       "componentId": "cooling_tower",
       "description": "Motor kipas berfungsi menggerakkan baling-baling cooling tower sehingga aliran udara yang diperlukan untuk proses pendinginan dapat tercipta.",
-      "videoUrl": null,
+      "videoUrl": "videos/cooling-tower.mp4",
       "audioUrl": null
     },
     {
@@ -93,7 +93,7 @@
       "name": "Kipas Penghisap",
       "componentId": "cooling_tower",
       "description": "Kipas penghisap berfungsi menarik udara dari bawah cooling tower dan membuang udara panas ke atmosfer sehingga mempercepat proses pendinginan air.",
-      "videoUrl": null,
+      "videoUrl": "videos/baling-baling.mp4",
       "audioUrl": null
     },
     {
@@ -101,7 +101,7 @@
       "name": "Globe Valve",
       "componentId": "jembatan",
       "description": "Globe Valve berfungsi mengatur dan mengontrol laju aliran air dingin yang masuk atau keluar dari sistem AHU.",
-      "videoUrl": null,
+      "videoUrl": "videos/expansion-valve.mp4",
       "audioUrl": null
     },
     {
