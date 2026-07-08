@@ -5,48 +5,48 @@
       "name": "Kompresor",
       "componentId": "chiller",
       "description": "Kompresor berfungsi menghisap refrigeran bertekanan rendah dari evaporator kemudian memampatkannya menjadi gas bertekanan dan bersuhu tinggi sebelum dialirkan ke kondensor.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/chiller-kompresor.mp4",
+      "audioUrl": "audios/chiller-kompresor.mp3"
     },
     {
       "id": "titik_evaporator",
       "name": "Evaporator",
       "componentId": "chiller",
       "description": "Evaporator berfungsi menyerap panas dari air sistem sehingga temperatur air menjadi lebih rendah. Pada proses ini refrigeran menguap dari cair menjadi gas.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/chiller-evaporator.mp4",
+      "audioUrl": "audios/chiller-evaporator.mp3"
     },
     {
       "id": "titik_condenser",
       "name": "Kondensor",
       "componentId": "chiller",
       "description": "Kondensor berfungsi melepaskan panas dari refrigeran ke media pendingin sehingga refrigeran berubah dari fase gas menjadi cair bertekanan tinggi.",
-      "videoUrl": "videos/siklus-kondensor.mp4",
-      "audioUrl": null
+      "videoUrl": "videos/chiller-kondensor.mp4",
+      "audioUrl": "audios/chiller-kondensor.mp3"
     },
     {
       "id": "titik_expansion_valve",
       "name": "Expansion Valve",
       "componentId": "chiller",
       "description": "Expansion Valve berfungsi menurunkan tekanan dan temperatur refrigeran cair sebelum masuk ke evaporator agar proses penyerapan panas dapat berlangsung optimal.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/chiller-expansion-valve.mp4",
+      "audioUrl": "audios/chiller-expansion-valve.mp3"
     },
     {
       "id": "titik_Tembaga",
       "name": "Pipa Tembaga",
       "componentId": "chiller",
       "description": "Pipa tembaga berfungsi sebagai jalur sirkulasi refrigeran yang menghubungkan komponen-komponen utama chiller dengan tetap menjaga tekanan dan efisiensi perpindahan panas.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/chiller-pipa-tembaga.mp4",
+      "audioUrl": "audios/chiller-pipa-tembaga.mp3"
     },
     {
       "id": "titik_cooling_coil",
       "name": "Cooling Coil",
       "componentId": "ahu",
       "description": "Cooling Coil berfungsi menyerap panas dari udara yang melewatinya menggunakan air dingin dari chiller sehingga suhu udara menjadi lebih rendah.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/cooling-coil-ahu.mp4",
+      "audioUrl": "audios/cooling-coil-ahu.mp3"
     },
     {
       "id": "titik_blower",
@@ -54,15 +54,15 @@
       "componentId": "ahu",
       "description": "Blower AHU berfungsi mengalirkan udara melalui filter dan cooling coil kemudian mendistribusikannya ke ruangan yang dilayani.",
       "videoUrl": "videos/blower-ac.mp4",
-      "audioUrl": null
+      "audioUrl": "audios/blower-ahu.mp3"
     },
     {
       "id": "titik_prefilter",
       "name": "Pre-Filter",
       "componentId": "ahu",
       "description": "Pre-Filter berfungsi menyaring debu, kotoran, dan partikel berukuran besar dari udara sebelum udara melewati komponen AHU lainnya.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/pre-filter-ahu.mp4",
+      "audioUrl": "audios/pre-filter-ahu.mp3"
     },
     {
       "id": "titik_motor",
@@ -70,23 +70,23 @@
       "componentId": "cooling_tower",
       "description": "Motor kipas berfungsi menggerakkan baling-baling cooling tower sehingga aliran udara yang diperlukan untuk proses pendinginan dapat tercipta.",
       "videoUrl": "videos/cooling-tower.mp4",
-      "audioUrl": null
+      "audioUrl": "audios/cooling-tower.mp3"
     },
     {
       "id": "titik_motor_AHU",
       "name": "Mesin Blower AHU",
       "componentId": "ahu",
       "description": "Mesin blower AHU berfungsi sebagai sumber tenaga penggerak blower untuk menghasilkan aliran udara dalam unit AHU.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/motor-blower-ac.mp4",
+      "audioUrl": "audios/motor-blower-ahu.mp3"
     },
     {
       "id": "titik_pendingin",
       "name": "Lempengan Pendingin",
       "componentId": "cooling_tower",
       "description": "Lempengan pendingin atau fill media berfungsi memperluas area kontak antara air dan udara sehingga proses pelepasan panas menjadi lebih efektif.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/lempengan-pendingin.mp4",
+      "audioUrl": "audios/lempengan-pendingin.mp3"
     },
     {
       "id": "titik_baling",
@@ -94,39 +94,39 @@
       "componentId": "cooling_tower",
       "description": "Kipas penghisap berfungsi menarik udara dari bawah cooling tower dan membuang udara panas ke atmosfer sehingga mempercepat proses pendinginan air.",
       "videoUrl": "videos/baling-baling.mp4",
-      "audioUrl": null
+      "audioUrl": "audios/fan-ahu.mp3"
     },
     {
       "id": "titik_valve",
       "name": "Globe Valve",
       "componentId": "jembatan",
       "description": "Globe Valve berfungsi mengatur dan mengontrol laju aliran air dingin yang masuk atau keluar dari sistem AHU.",
-      "videoUrl": "videos/expansion-valve.mp4",
-      "audioUrl": null
+      "videoUrl": "videos/globe-valve.mp4",
+      "audioUrl": "audios/globe-valve.mp3"
     },
     {
       "id": "titik_penampung_air",
       "name": "Bak Penampungan Air",
       "componentId": "cooling_tower",
       "description": "Bak penampungan air berfungsi menampung air yang telah didinginkan sebelum dipompa kembali ke sistem pendingin.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/bak-penampungan-air.mp4",
+      "audioUrl": "audios/bak-penampungan-air.mp3"
     },
     {
       "id": "titik_penyemprot",
       "name": "Nozzle Penyemprot Air",
       "componentId": "cooling_tower",
       "description": "Nozzle penyemprot air berfungsi mendistribusikan air panas secara merata ke seluruh permukaan fill media agar proses pendinginan berlangsung optimal.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/nozzle-penyemprot-air.mp4",
+      "audioUrl": "audios/nozzle-penyemprot-air.mp3"
     },
     {
       "id": "titik_pump",
       "name": "Centrifugal Pump",
       "componentId": "pompa",
       "description": "Centrifugal Pump berfungsi mensirkulasikan air dingin dari chiller menuju AHU dan mengembalikannya kembali ke sistem pendingin.",
-      "videoUrl": null,
-      "audioUrl": null
+      "videoUrl": "videos/centrifugal-pump.mp4",
+      "audioUrl": "audios/centrifugal-pump.mp3"
     }
   ]
 }
