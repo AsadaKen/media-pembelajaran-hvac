@@ -25,8 +25,7 @@ export default function ProfilePage() {
             {/* Bingkai Foto Keren (Squircular) */}
             <div className="w-64 h-80 bg-surface-bright rounded-[2rem] border-2 border-secondary/30 overflow-hidden shadow-[0_0_30px_rgba(123,208,255,0.15)] transition-transform duration-500 group-hover:scale-105">
               <div className="w-full h-full flex items-center justify-center text-secondary/20">
-                {/* Kamu bisa ganti tag <img> di sini nanti */}
-                <span className="text-6xl">😊</span>
+                <img src="picture\profile.jpg" alt="🏛️" className="w-full h-full object-contain" />
               </div>
             </div>
             {/* Dekorasi Pojok */}
