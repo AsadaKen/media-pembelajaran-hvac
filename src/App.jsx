@@ -11,6 +11,7 @@ import ErrorBoundary from './components/ui/ErrorBoundary';
 import useAppStore from './stores/useAppStore';
 import ProfilePage from './components/ui/ProfilePage';
 import CameraGuide from './components/ui/CameraGuide';
+import MaintenanceGuide from './components/ui/MaintenanceGuide'; // TAMBAHAN 1: Impor komponen baru
 import { AnimatePresence } from 'framer-motion';
 
 export default function App() {
@@ -39,8 +40,10 @@ export default function App() {
         {activePage === 'profile' && <ProfilePage />}
       </AnimatePresence>
       
+      {/* TAMBAHAN 2: Memanggil Antarmuka Buku Panduan */}
+      <MaintenanceGuide />
+      
       {/* --- KELOMPOK 3D (KANVAS WEBGL) --- */}
-      {/* Kanvas sekarang dikunci posisinya di latar belakang menggunakan absolute inset-0 */}
       <div className={`absolute inset-0 z-0 w-full h-full ${viewMode === '3d' ? 'block' : 'hidden'}`}>
         <ErrorBoundary>
           <Canvas>

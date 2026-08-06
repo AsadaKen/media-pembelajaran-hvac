@@ -53,6 +53,14 @@ export default function ToolbarOverlay() {
       >
         Mode: {viewMode === '3d' ? '3D Interaktif' : '2D Video'}
       </button>
+
+      <button
+        onClick={() => useAppStore.getState().setActivePage('guide')}
+        className="flex items-center gap-2 px-4 py-2 bg-surface-bright border border-white/10 rounded-lg hover:bg-primary hover:text-[#003258] transition-all font-geist font-bold text-sm text-primary shadow-lg"
+      >
+        <span>📖</span>
+        <span>Buku Panduan</span>
+      </button>
       
     </div>
   );

@@ -1,0 +1,235 @@
+{
+  "categories": [
+    {
+      "id": "maintenance_harian",
+      "title": "Maintenance Harian",
+      "subtopics": [
+        {
+          "id": "chiller_harian",
+          "title": "Chiller",
+          "pages": [
+            {
+              "title": "Mencatat Parameter Chilled Water",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-1.webp",
+              "description": "Mencatat parameter suhu dan tekanan chilled water (air masuk dan keluar) pada log sheet secara rutin setiap hari untuk memantau performa sistem."
+            },
+            {
+              "title": "Pengecekan Level Oli dan Refrigerant",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-2.webp",
+              "description": "Mengecek indikator level oli kompresor dan level refrigerant (freon) melalui sight glass untuk memastikan tidak ada kekurangan yang dapat mengganggu kinerja kompresor."
+            },
+            {
+              "title": "Pemantauan Suara dan Getaran Kompresor",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-3.webp",
+              "description": "Mendengarkan dengan saksama apakah ada suara atau getaran kasar yang tidak normal pada kompresor sebagai indikasi awal adanya masalah mekanis."
+            }
+          ]
+        },
+        {
+          "id": "cooling_tower_harian",
+          "title": "Cooling Tower",
+          "pages": [
+            {
+              "title": "Pemeriksaan Level Air Basin",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-1.webp",
+              "description": "Memeriksa level air di basin (bak penampung) untuk memastikan volume air sirkulasi cukup dan tidak terjadi overflow (meluap)."
+            },
+            {
+              "title": "Pengecekan Operasional Kipas",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-2.webp",
+              "description": "Mengecek operasional kipas (fan) secara visual dan audio untuk memastikan putarannya stabil tanpa getaran aneh."
+            }
+          ]
+        },
+        {
+          "id": "ahu_harian",
+          "title": "Air Handling Unit (AHU)",
+          "pages": [
+            {
+              "title": "Pengecekan Suhu Supply Air",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-1.webp",
+              "description": "Mengecek suhu udara yang disalurkan ke ruangan (supply air) untuk memastikan proses pendinginan berjalan normal."
+            },
+            {
+              "title": "Pemeriksaan Kebocoran Air Kondensasi",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-2.webp",
+              "description": "Memastikan tidak ada air kondensasi yang tumpah atau menetes keluar dari bodi unit AHU."
+            },
+            {
+              "title": "Pemantauan Suara Motor Blower",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-3.webp",
+              "description": "Memantau suara motor blower; jika terdengar mendengung keras, segera matikan unit untuk mencegah kerusakan lebih lanjut.",
+              "warning": "Segera matikan unit jika terdengar suara mendengung keras dari motor blower."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance_mingguan",
+      "title": "Maintenance Mingguan",
+      "subtopics": [
+        {
+          "id": "chiller_mingguan",
+          "title": "Chiller",
+          "pages": [
+            {
+              "title": "Inspeksi Jalur Perpipaan",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-4.webp",
+              "description": "Melakukan inspeksi visual pada jalur perpipaan refrigeran dan oli untuk memastikan tidak ada rembesan atau kebocoran."
+            },
+            {
+              "title": "Pengecekan Panel Kontrol",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-5.webp",
+              "description": "Mengecek fungsi panel kontrol dan memastikan tidak ada error code atau warning yang muncul di layar."
+            }
+          ]
+        },
+        {
+          "id": "cooling_tower_mingguan",
+          "title": "Cooling Tower",
+          "pages": [
+            {
+              "title": "Pembersihan Saringan Air (Strainer)",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-3.jpeg",
+              "description": "Membersihkan saringan air (strainer) di bak penampung dari kotoran kasar seperti dedaunan, serangga, atau plastik."
+            },
+            {
+              "title": "Pemeriksaan Ketegangan V-Belt",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-4.jpeg",
+              "description": "Memeriksa ketegangan V-belt pada motor kipas; jika kendur, segera dikencangkan agar putaran kipas tidak selip."
+            },
+            {
+              "title": "Pengecekan Float Valve",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-5.jpeg",
+              "description": "Mengecek pergerakan float valve (katup pelampung) suplai air tambahan (make-up water) agar tidak macet."
+            }
+          ]
+        },
+        {
+          "id": "ahu_mingguan",
+          "title": "Air Handling Unit (AHU)",
+          "pages": [
+            {
+              "title": "Pemeriksaan Pre-Filter",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-4.jpeg",
+              "description": "Memeriksa kondisi pre-filter (filter debu kasar). Jika terlihat mulai tertutup debu, lakukan pembersihan ringan (divakum atau disemprot angin)."
+            },
+            {
+              "title": "Pengecekan Drain Pan",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-5.jpeg",
+              "description": "Mengecek bak penampung air (drain pan) dan membuang kotoran/lendir yang berpotensi menyumbat lubang drainase."
+            },
+            {
+              "title": "Pemeriksaan Kekencangan V-Belt Blower",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-6.webp",
+              "description": "Memeriksa kekencangan V-belt pada motor blower untuk memastikan tidak ada selip yang menurunkan performa aliran udara."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance_bulanan",
+      "title": "Maintenance Bulanan",
+      "subtopics": [
+        {
+          "id": "chiller_bulanan",
+          "title": "Chiller",
+          "pages": [
+            {
+              "title": "Pemeriksaan Kekencangan Kabel Kelistrikan",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-6.jpeg",
+              "description": "Memeriksa kekencangan koneksi kabel kelistrikan pada panel utama dan kontaktor kompresor untuk mencegah korsleting.",
+              "warning": "Pastikan daya listrik telah dimatikan sepenuhnya pada panel utama sebelum melakukan pemeriksaan kabel."
+            },
+            {
+              "title": "Analisis Kualitas Air Kondensor dan Chilled Water",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Chiller-7.jpeg",
+              "description": "Menganalisis sampel air kondensor dan air chilled untuk melihat tingkat keasaman (pH) dan potensi kerak (jika menggunakan water-cooled chiller)."
+            }
+          ]
+        },
+        {
+          "id": "cooling_tower_bulanan",
+          "title": "Cooling Tower",
+          "pages": [
+            {
+              "title": "Tujuan & Sasaran Maintenance",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-6.jpeg",
+              "description": "Maintenance bulanan pada Cooling Tower bertujuan untuk menjaga efisiensi pelepasan panas dan mencegah penumpukan lumut, kerak, atau kotoran pada fill media.",
+              "warning": "Pastikan daya listrik motor kipas (fan motor) telah dimatikan sepenuhnya pada panel utama sebelum melakukan pemeriksaan fisik."
+            },
+            {
+              "title": "Greasing Bearing Motor Kipas",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-7.jpeg",
+              "description": "Memberikan pelumas (greasing) pada bantalan poros (bearing) motor kipas agar putaran tetap halus dan tidak cepat aus."
+            },
+            {
+              "title": "Pembersihan Bak Penampungan (Blowdown)",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-8.jpeg",
+              "description": "Melakukan blowdown atau menguras sebagian air di dasar basin untuk membuang endapan lumpur.",
+              "steps": [
+                "Kuras air dari bak penampungan (basin) hingga kosong.",
+                "Sikat dan bersihkan lumut serta sedimen yang mengendap di dasar bak.",
+                "Bilas menggunakan air bersih bertekanan sedang.",
+                "Periksa kondisi pelampung (float valve) apakah berfungsi memutus aliran air dengan baik."
+              ]
+            },
+            {
+              "title": "Pemeriksaan Sistem Chemical Dosing",
+              "mediaType": "image",
+              "mediaUrl": "/picture/Cooling-Tower-9.jpeg",
+              "description": "Memeriksa sistem injeksi bahan kimia (chemical dosing) untuk mencegah pertumbuhan lumut dan bakteri pada filler."
+            }
+          ]
+        },
+        {
+          "id": "ahu_bulanan",
+          "title": "Air Handling Unit (AHU)",
+          "pages": [
+            {
+              "title": "Pencucian atau Penggantian Air Filter",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-7.jpeg",
+              "description": "Mencuci bersih atau mengganti air filter dengan yang baru agar aliran udara tidak terhambat."
+            },
+            {
+              "title": "Pembersihan Cooling Coil",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-8.jpeg",
+              "description": "Melakukan pembersihan pada kisi-kisi koil pendingin (cooling coil) menggunakan cairan chemical ringan agar debu tebal rontok dan perpindahan panas kembali maksimal."
+            },
+            {
+              "title": "Greasing Bearing dan Pengecekan Mounting Motor",
+              "mediaType": "image",
+              "mediaUrl": "/picture/ahu-9.jpeg",
+              "description": "Melumasi (greasing) bearing pada poros blower dan mengecek posisi mounting motor agar tidak bergeser."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
